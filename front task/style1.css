@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#Header{
+   padding: 30px 4rem;
+    
+}
+.head-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.head-nav a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 40px;
+    color: #fff;
+    width: 50%;
+    font-size: 20px;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: green;
+    border-radius: 6px;
+    padding: 5px 6px;
+}
+
+
+.icon a{
+    color: #000;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.photo img{
+    width: 100%;
+}
+.body-all div h1{
+    z-index: 5;
+    
+}
+.body-all h1{
+    
+    font-size: 40px;
+    
+}
+#body{
+    background-image: url();
+
+    padding: 10rem 4rem;
+    
+}
+.image img{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 50px;
+
+}
+
+.body-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12.5rem 0;
+    position: relative;
+}
+.body-all p{
+     font-size: 25px;
+     margin-bottom: 4rem;
+     padding-bottom: 20rem;
+}
+
+.body-image{
+    width: 40rem;
+    height: 40rem;
+    background-image: url(https://www.benzinga.com/files/images/story/2012/screen_shot_2021-11-02_at_10.59.51.png);
+    background-position: 57% 20%;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.body-text h1{
+    text-align: center;
+    margin: 30px;
+    
+}
+
+h1{
+    cursor: pointer;
+}
+
+.logo{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo img{
+    width: 100%;
+    vertical-align: bottom;
+    justify-self: flex-end;
+}
+
+
+
+.body-text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 40%;
+    margin: 10rem 0;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10rem 0;
+
+}
